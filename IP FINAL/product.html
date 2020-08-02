@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mechanical Engineering Course</title>
+<link rel="stylesheet" type="text/css" href="dept_style.css">
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+	<header>
+		<img src="tcetlogo.jpg" alt="tcet header" height="100" style="width:100%;">
+	</header>
+</div>
+
+<div class="menu">
+	<ul type='none'>
+		<li><a href="index.html" >HOME</a></li>
+		<li><a href="dept.html" class="active">DEPARTMENT</a></li>
+		<li><a href="register.html">REGISTER</a></li>
+		<li><a href="login.html">FACULTY LOGIN</a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+	</ul>
+</div>
+
+<div class="content" style="overflow-x:auto;">
+	<h1 align='center'>PRODUCT DESIGN</h1>
+<br>
+
+<div class="content1">
+			<h3>What is Product Design?</h3>
+	<p> <b>Product design</b> as a verb is to create a new product to be sold by a business to its customers. A very broad coefficient and effective generation and development of ideas through a process that leads to new products. Thus, it is a major aspect of new product development.
+
+Due to the absence of a consensually accepted definition that reflects the breadth of the topic sufficiently, two discrete, yet interdependent, definitions are needed: one that explicitly defines product design in reference to the artifact, the other that defines the product design process in relation to this artifact.
+
+Product design as a noun: the set of properties of an artifact, consisting of the discrete properties of the form (i.e., the aesthetics of the tangible good or service) and the function (i.e. its capabilities) together with the holistic properties of the integrated form and function.</p>
+
+<div align="center">
+		<video src="pd.mp4" type="video/mp4" width= 80% controls>
+			Sorry, your browser does not support this video player.
+		</video>
+</div>
+</div>
+<h2 align='center'> SEMESTER-WISE COURSES </h2>
+<div class="content1">
+			<details>
+				<summary>	Semester 1 : Course1<br>	</summary> 
+					<h3>What is Course1? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 2 : Course2<br> 	</summary> 
+					<h3>What is Course2? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 3 : Course3<br></summary>
+					<h3>What is Course3? </h3>		<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 4 : Course4<br>	</summary>
+					<h3>What is Course4?</h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 5 : Course5<br>	</summary>
+					<h3>What is Course5? </h3>		<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details> 
+				<summary>	Semester 6 : Course6<br> 	</summary>
+					<h3>What is Course6? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details> 
+				<summary>	Semester 7 : Course7<br>	</summary> 
+					<h3>What is Course7? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 8 : Course8<br> 	</summary> 					
+					<h3>What is Course8? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+</div>
+<script>
+// Fetch all the details element.
+const details = document.querySelectorAll("details");
+
+// Add the onclick listeners.
+details.forEach((targetDetail) => {
+  targetDetail.addEventListener("click", () => {
+    // Close all the details that are not targetDetail.
+    details.forEach((detail) => {
+      if (detail !== targetDetail) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});
+</script>
+</div>
+</body>
+</html>

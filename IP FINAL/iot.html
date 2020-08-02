@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electronics and Telecommunication Engineering Course</title>
+<link rel="stylesheet" type="text/css" href="dept_style.css">
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+	<header>
+		<img src="tcetlogo.jpg" alt="tcet header" height="100" style="width:100%;">
+	</header>
+</div>
+
+<div class="menu">
+	<ul type='none'>
+		<li><a href="index.html" >HOME</a></li>
+		<li><a href="dept.html" class="active">DEPARTMENT</a></li>
+		<li><a href="register.html">REGISTER</a></li>
+		<li><a href="login.html">FACULTY LOGIN</a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+	</ul>
+</div>
+
+<div class="content" style="overflow-x:auto;">
+	<h1 align='center'>IOT SPECIALIZATION</h1>
+<br>
+
+<div class="content1">
+			<h3>What is IOT?</h3>
+	<p> <b>The Internet of Things (IoT)</b> is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.[1][2][3][4]
+
+The definition of the Internet of Things has evolved due to the convergence of multiple technologies, real-time analytics, machine learning, commodity sensors, and embedded systems.[5] Traditional fields of embedded systems, wireless sensor networks, control systems, automation (including home and building automation), and others all contribute to enabling the Internet of Things. In the consumer market, IoT technology is most synonymous with products pertaining to the concept of the "smart home", covering devices and appliances (such as lighting fixtures, thermostats, home security systems and cameras, and other home appliances) that support one or more common ecosystems, and can be controlled via devices associated with that ecosystem, such as smartphones and smart speakers.</p>
+
+<div align="center">
+		<video src="iot.mp4" type="video/mp4" width= 80% controls>
+			Sorry, your browser does not support this video player.
+		</video>
+</div>
+</div>
+<h2 align='center'> SEMESTER-WISE COURSES </h2>
+<div class="content1">
+			<details>
+				<summary>	Semester 1 : Course1<br>	</summary> 
+					<h3>What is Course1? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 2 : Course2<br> 	</summary> 
+					<h3>What is Course2? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 3 : Course3<br></summary>
+					<h3>What is Course3? </h3>		<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 4 : Course4<br>	</summary>
+					<h3>What is Course4?</h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 5 : Course5<br>	</summary>
+					<h3>What is Course5? </h3>		<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details> 
+				<summary>	Semester 6 : Course6<br> 	</summary>
+					<h3>What is Course6? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details> 
+				<summary>	Semester 7 : Course7<br>	</summary> 
+					<h3>What is Course7? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 8 : Course8<br> 	</summary> 					
+					<h3>What is Course8? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+</div>
+<script>
+// Fetch all the details element.
+const details = document.querySelectorAll("details");
+
+// Add the onclick listeners.
+details.forEach((targetDetail) => {
+  targetDetail.addEventListener("click", () => {
+    // Close all the details that are not targetDetail.
+    details.forEach((detail) => {
+      if (detail !== targetDetail) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});
+</script>
+</div>
+</body>
+</html>

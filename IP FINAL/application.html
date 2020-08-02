@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Information Technology Course</title>
+<link rel="stylesheet" type="text/css" href="dept_style.css"><a href=""> </a>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+	<header>
+		<img src="tcetlogo.jpg" alt="tcet header" height="100" style="width:100%;">
+	</header>
+</div>
+
+<div class="menu">
+	<ul type='none'>
+		<li><a href="index.html" >HOME</a></li>
+		<li><a href="dept.html" class="active">DEPARTMENT</a></li>
+		<li><a href="register.html">REGISTER</a></li>
+		<li><a href="login.html">FACULTY LOGIN</a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+	</ul>
+</div>
+
+<div class="content" style="overflow-x:auto;">
+	<h1 align='center'>APPLICATION PARADIGM</h1>
+<br>
+
+<div class="content1">
+	<h3>What is Application Paradigm?</h3>
+	<p> <b>Application paradigms </b>also called as Programming Paradigms.<br> <b> Programming Paradigms</b> are a way to classify programming languages based on their features. <br>Languages can be classified into multiple paradigms.
+Some paradigms are concerned mainly with implications for the execution model of the language, such as allowing side effects, or whether the sequence of operations is defined by the execution model. Other paradigms are concerned mainly with the way that code is organized, such as grouping a code into units along with the state that is modified by the code. Yet others are concerned mainly with the style of syntax and grammar.</p>
+ 
+<div align="center">
+		<video src="ap.mp4" type="video/mp4" width= 80% controls>
+			Sorry, your browser does not support this video player.
+		</video>
+</div>
+</div>
+<h2 align='center'> SEMESTER-WISE COURSES </h2>
+<div class="content1">
+
+			<details>
+				<summary>	Semester 3 : Structured Programming Paradigm	</summary>
+					<h3>What is Structured Programming? </h3>		<br>
+					<p>Structured programming is a programming paradigm aimed at improving the clarity, quality, and development time 					   of a computer program by making extensive use of the structured control flow constructs of selection (if/then/					   else) and repetition (while and for), block structures, and subroutines.</p>
+					Click on one of the link below for more information : <br>
+					<a href="https://www.edx.org/course/c-programming-getting-started"> edx </a>	<br>
+					<a href="https://www.udemy.com/course/c-programming-for-beginners-/"> udemy </a>	<br>
+					<a href="https://www.coursera.org/specializations/c-programming"> Coursera </a>	<br>
+					<a href="https://nptel.ac.in/courses/106/105/106105151/"> Nptel </a>	<br>
+
+			</details>
+			<details>
+				<summary>	Semester 4 : Introduction to Algorithms and Data Structure Paradigms<br>	</summary>
+					<h3>What is Algorithm? </h3>	<br>
+					<p>In mathematics and computer science, an algorithm is a sequence of instructions, typically to solve a class of 					   problems or perform a computation. Algorithms are unambiguous specifications for performing calculation, data 					   processing, automated reasoning, and other tasks. </p>
+					<a href=""> </a>
+					<br>
+					<h3>What do you mean by Data Structures? </h3>	<br>
+					<p>data structure is a data organization, management, and storage format that enables efficient access and 						   modification. More precisely, a data structure is a collection of data values, the relationships among them, 					   and the functions or operations that can be applied to the data.</p>
+					Click on one of the link below for more information : <br>
+					<a href="https://www.edx.org/course?search_query=data+structures+and+algorithms"> edx </a>	<br>
+					<a href="https://www.udemy.com/course/learn-data-structure-algorithms-with-java-interview/"> udemy </a>	<br>
+					<a href="https://www.coursera.org/specializations/data-structures-algorithms"> Coursera </a>	<br>
+					<a href="https://nptel.ac.in/courses/106/105/106105151/"> Nptel </a>	<br>
+
+			</details>
+			<details>
+				<summary>	Semester 5 : Programming with Java Object Oriented Programming<br>	</summary>
+					<h3>What is Java? </h3>		<br>
+					<p>Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as 					   few implementation dependencies as possible. It is intended to let application developers write once, run 						   anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the 						   need for recompilation. Java applications are typically compiled to bytecode that can run on any Java 						   virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C 					   and C++, but it has fewer low-level facilities than either of them. As of 2019, Java was one of the most 						   popular programming languages in use according to GitHub, particularly for client-server web 						  	   applications, with a reported 9 million developers.</p>
+					Click on one of the link below for more information : <br>
+					<a href="https://www.edx.org/learn/java"> edx </a>	<br>
+					<a href="https://www.udemy.com/topic/java/"> udemy </a>	<br>
+					<a href="https://www.coursera.org/courses?query=java"> Coursera </a>	<br>
+					<a href="https://nptel.ac.in/courses/106/105/106105191/"> Nptel </a>	<br>
+			</details>
+			<details> 
+				<summary>	Semester 6 : Course6<br> 	</summary>
+					<h3>What is Course6? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details> 
+				<summary>	Semester 7 : Course7<br>	</summary> 
+					<h3>What is Course7? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 8 : Course8<br> 	</summary> 					
+					<h3>What is Course8? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+</div>
+<script>
+// Fetch all the details element.
+const details = document.querySelectorAll("details");
+
+// Add the onclick listeners.
+details.forEach((targetDetail) => {
+  targetDetail.addEventListener("click", () => {
+    // Close all the details that are not targetDetail.
+    details.forEach((detail) => {
+      if (detail !== targetDetail) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});
+</script>
+</div>
+</body>
+</html>
+

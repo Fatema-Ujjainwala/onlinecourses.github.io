@@ -1,0 +1,91 @@
+.container{
+	width: 100%;
+    border: 1px solid #FF5733;
+	background-color: lightblue;
+	font-family: Century Gothic;
+	max-width: 1250px;
+	margin:auto;	
+}
+.header{
+    padding:5px;
+    color: white;
+    background-color: #FF5733;
+    text-align: center;
+	height: auto;
+	width: 1000;
+}
+
+.menu {
+	padding:0.02px;
+	background: darkblue;
+	text-align: center;
+}
+
+ul li{
+	display: inline-block;
+	text-align: center;
+}
+
+ul li a{
+	text-decoration:none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	text-align: center;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;	
+}
+
+.active {
+	background-color: white;
+	color: black;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+h1 {
+	background-color: #4180C5;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 8px;
+	margin-top: -11px;
+	margin-bottom: -8px;
+	/*border-radius: 10px 10px 0 0;*/
+	color: aliceblue;
+}
+
+.content{
+	
+	align:center;
+	width: 90%;
+	margin: 10px 30% 10px 25%;
+	padding:10px 0;
+	/*border: 2px solid gray;*/
+	max-width: 1250px;
+	margin:auto;
+	/*border-radius:10px;*/
+} 
+.content1{
+	 align:center;
+	 width: 95%;
+	 margin: 10px 30% 10px 25%;
+	 padding: 10px 0;
+	 max-width:1250px;
+	 margin:auto;
+}

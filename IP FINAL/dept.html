@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Courses</title>
+<link rel="stylesheet" type="text/css" href="dept_style.css">
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+	<header>
+		<img src="tcetlogo.jpg" alt="tcet header" height="100" style="width:100%;">
+	</header>
+</div>
+
+
+<div class="menu">
+	<ul type='none'>
+		<li><a href="index.html" >HOME</a></li>
+		<li><a href="dept.html" class="active">DEPARTMENT</a></li>
+		<li><a href="register.html">REGISTER</a></li>
+		<li><a href="login.html">FACULTY LOGIN</a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+	</ul>
+</div>
+
+<div class="content" style="overflow-x:auto;">
+	<h1>VARIOUS DOMAIN COURSES OFFERED BY THE DEPARTMENT</h1>
+<br>
+
+<div class="content1">
+<p>Since the college has achieved Autonomy under Mumbai University, each department of our college offers a variety of courses to the students. <br>Each department includes 2 domains of their background, each domain has semester-wise courses. The students are given a choice to opt for a particular domain they want to achieve specialization in. After completion of each course the college offers you 3 credits. This credits are included in the marksheet. These credits are summed up in the end of the degree.</p>
+
+<b><u><h3> Guidelines before Selecting a Domain </h3> </u> </b> <br>
+1. Students should opt for a single domain for specialization.<br>
+2. Students can opt for Domains from any department.<br>
+3. Only after scoring 60% of marks in each course, the students will receive the 3 credits.<br>
+4. In the 8th Semester, the students have to submit a mini project based on their domain which will grab you 2 credits.<br>
+5. To get the degree of specialization, students should achieve a total of 20 credits.<br>
+
+<b>NOTE: Students can give n number of attempts during the course of engineering.</b>
+
+</div>
+
+<h2> DEPARTMENTS </h2>
+
+<div class="content1">
+
+<details>
+      <summary>Information Technology Department</summary>
+		<center>
+		<a href="application.html">1. Application Paradigm</a><br>
+		<a href="infrastructure.html">2. Infrastructure Security</a>
+		</center>
+</details>
+
+<details>
+      <summary>Computer Engineering Department</summary>
+		<center>
+		<a href="data.html">1. Data Science</a><br>
+		<a href="artificial.html">2. Artificial Intelligence</a>
+		</center>
+</details>
+
+<details>
+      <summary>Electronics and Telecommunication Engineering Department</summary>
+		<center>
+		<a href="wireless.html">1. Wireless Communication</a><br>
+		<a href="iot.html">2. IOT Specialization</a>
+		</center>
+</details>
+
+<details>
+      <summary>Electrical Engineering Department</summary>
+		<center>
+		<a href="system.html">1. System on Chip</a><br>
+		<a href="industrial.html">2. Industrial Automation</a>
+		</center>
+</details>
+
+<details>
+      <summary>Mechanical Engineering Department</summary>
+		<center>
+		<a href="industry.html">1. Industry 4.0</a><br>
+		<a href="product.html">2. Product Design</a>
+		</center>
+</details>
+
+<details>
+      <summary>Civil Engineering Department</summary>
+		<center>
+		<a href="smart.html">1. Smart Infrastructure</a><br>
+		<a href="structural.html">2. Structural Engineering</a>	
+		</center>
+</details>
+
+
+</div>
+
+</div>
+<script>
+// Fetch all the details element.
+const details = document.querySelectorAll("details");
+
+// Add the onclick listeners.
+details.forEach((targetDetail) => {
+  targetDetail.addEventListener("click", () => {
+    // Close all the details that are not targetDetail.
+    details.forEach((detail) => {
+      if (detail !== targetDetail) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});
+</script>
+</div>
+</body>
+</html>

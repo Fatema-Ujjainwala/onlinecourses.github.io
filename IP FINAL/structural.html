@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Civil Engineering Course</title>
+<link rel="stylesheet" type="text/css" href="dept_style.css">
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+	<header>
+		<img src="tcetlogo.jpg" alt="tcet header" height="100" style="width:100%;">
+	</header>
+</div>
+
+<div class="menu">
+	<ul type='none'>
+		<li><a href="index.html" >HOME</a></li>
+		<li><a href="dept.html" class="active">DEPARTMENT</a></li>
+		<li><a href="register.html">REGISTER</a></li>
+		<li><a href="login.html">FACULTY LOGIN</a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+	</ul>
+</div>
+
+<div class="content" style="overflow-x:auto;">
+	<h1 align='center'>STRUCTURAL ENGINEERING</h1>
+<br>
+
+<div class="content1">
+			<h3>What is Structural Engineering?</h3>
+	<p> <b>Structural engineering </b>is a sub-discipline of civil engineering in which structural engineers are trained to design the 'bones and muscles' that create the form and shape of man made structures. Structural engineers need to understand and calculate the stability, strength and rigidity of built structures for buildings and nonbuilding structures. The structural designs are integrated with those of other designers such as architects and building services engineer and often supervise the construction of projects by contractors on site. They can also be involved in the design of machinery, medical equipment, and vehicles where structural integrity affects functioning and safety.</p>
+
+<div align="center">
+		<video src="se.mp4" type="video/mp4" width= 80% controls>
+			Sorry, your browser does not support this video player.
+		</video>
+</div>
+</div>
+<h2 align='center'> SEMESTER-WISE COURSES </h2>
+<div class="content1">
+			<details>
+				<summary>	Semester 1 : Course1<br>	</summary> 
+					<h3>What is Course1? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 2 : Course2<br> 	</summary> 
+					<h3>What is Course2? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 3 : Course3<br></summary>
+					<h3>What is Course3? </h3>		<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 4 : Course4<br>	</summary>
+					<h3>What is Course4?</h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 5 : Course5<br>	</summary>
+					<h3>What is Course5? </h3>		<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details> 
+				<summary>	Semester 6 : Course6<br> 	</summary>
+					<h3>What is Course6? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details> 
+				<summary>	Semester 7 : Course7<br>	</summary> 
+					<h3>What is Course7? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+			<details>
+				<summary>	Semester 8 : Course8<br> 	</summary> 					
+					<h3>What is Course8? </h3>	<br>
+					<p> </p>
+					<a href=""> </a>
+			</details>
+</div>
+<script>
+// Fetch all the details element.
+const details = document.querySelectorAll("details");
+
+// Add the onclick listeners.
+details.forEach((targetDetail) => {
+  targetDetail.addEventListener("click", () => {
+    // Close all the details that are not targetDetail.
+    details.forEach((detail) => {
+      if (detail !== targetDetail) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Courses</title>
+<link rel="stylesheet" type="text/css" href="login_style.css">
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+	<header>
+		<img src="tcetlogo.jpg" alt="tcet header" height="100" style="width:100%;">
+	</header>
+</div>
+
+<div class="menu">
+	<ul type='none'>
+		<li><a href="index.html" >HOME</a></li>
+		<li><a href="dept.html" >DEPARTMENT</a></li>
+		<li><a href="register.html">REGISTER</a></li>
+		<li><a href="login.html" class="active">FACULTY LOGIN</a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+	</ul>
+</div>
+
+<div class="content" style="overflow-x:auto;">
+<h1 align='center'>FACULTY LOGIN</h1><br>
+<form action="login.php" method="post" align='center'> 
+	<label>USERNAME : </label>
+	<input type="text" name="username" width="100px;"><br><br>
+	
+	<label>PASSWORD : </label>
+	<input type="password" name="password" width="100px;"><br><br>		
+	
+	<input type="submit" class="button" value="SUBMIT" id="submit" width="50%">	
+
+</div>
+</body>
+</html>
